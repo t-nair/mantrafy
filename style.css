@@ -15,3 +15,26 @@ body {
     width: 100%;
   }
   
+  /* Customize audio player controls */
+  audio::-webkit-media-controls-panel {
+    background-color: #282828; /* Spotify background color */
+    border-radius: 5px;
+  }
+  
+  /* Customize play/pause button */
+  audio::-webkit-media-controls-play-button {
+    background-color: #1DB954; /* Spotify green */
+    border-radius: 50%;
+  }
+  
+  /* Customize seek bar */
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display {
+    color: #ffffff; /* White color for time display */
+  }
+  
+  /* Customize volume control */
+  audio::-webkit-media-controls-volume-slider {
+    background-color: #ffffff; /* White background for volume slider */
+  }
+  
